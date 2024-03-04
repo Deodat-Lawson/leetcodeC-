@@ -61,6 +61,36 @@ build CMakeFiles/untitled2.dir/subtreeOfAnotherTree.cpp.o: CXX_COMPILER__untitle
   OBJECT_DIR = CMakeFiles/untitled2.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled2.dir
 
+build CMakeFiles/untitled2.dir/lca_of_bst.cpp.o: CXX_COMPILER__untitled2_unscanned_Debug /Users/timothylin/CLionProjects/untitled2/lca_of_bst.cpp || cmake_object_order_depends_target_untitled2
+  DEP_FILE = CMakeFiles/untitled2.dir/lca_of_bst.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/untitled2.dir
+  OBJECT_FILE_DIR = CMakeFiles/untitled2.dir
+
+build CMakeFiles/untitled2.dir/binary_tree_level_order_traversal.cpp.o: CXX_COMPILER__untitled2_unscanned_Debug /Users/timothylin/CLionProjects/untitled2/binary_tree_level_order_traversal.cpp || cmake_object_order_depends_target_untitled2
+  DEP_FILE = CMakeFiles/untitled2.dir/binary_tree_level_order_traversal.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/untitled2.dir
+  OBJECT_FILE_DIR = CMakeFiles/untitled2.dir
+
+build CMakeFiles/untitled2.dir/count_good_nodes_in_binary_tree.cpp.o: CXX_COMPILER__untitled2_unscanned_Debug /Users/timothylin/CLionProjects/untitled2/count_good_nodes_in_binary_tree.cpp || cmake_object_order_depends_target_untitled2
+  DEP_FILE = CMakeFiles/untitled2.dir/count_good_nodes_in_binary_tree.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/untitled2.dir
+  OBJECT_FILE_DIR = CMakeFiles/untitled2.dir
+
+build CMakeFiles/untitled2.dir/binary_tree_right_side_view.cpp.o: CXX_COMPILER__untitled2_unscanned_Debug /Users/timothylin/CLionProjects/untitled2/binary_tree_right_side_view.cpp || cmake_object_order_depends_target_untitled2
+  DEP_FILE = CMakeFiles/untitled2.dir/binary_tree_right_side_view.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/untitled2.dir
+  OBJECT_FILE_DIR = CMakeFiles/untitled2.dir
+
+build CMakeFiles/untitled2.dir/validate_binary_search_tree.cpp.o: CXX_COMPILER__untitled2_unscanned_Debug /Users/timothylin/CLionProjects/untitled2/validate_binary_search_tree.cpp || cmake_object_order_depends_target_untitled2
+  DEP_FILE = CMakeFiles/untitled2.dir/validate_binary_search_tree.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/untitled2.dir
+  OBJECT_FILE_DIR = CMakeFiles/untitled2.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target untitled2
@@ -69,7 +99,7 @@ build CMakeFiles/untitled2.dir/subtreeOfAnotherTree.cpp.o: CXX_COMPILER__untitle
 #############################################
 # Link the executable untitled2
 
-build untitled2: CXX_EXECUTABLE_LINKER__untitled2_Debug CMakeFiles/untitled2.dir/main.cpp.o CMakeFiles/untitled2.dir/subtreeOfAnotherTree.cpp.o
+build untitled2: CXX_EXECUTABLE_LINKER__untitled2_Debug CMakeFiles/untitled2.dir/main.cpp.o CMakeFiles/untitled2.dir/subtreeOfAnotherTree.cpp.o CMakeFiles/untitled2.dir/lca_of_bst.cpp.o CMakeFiles/untitled2.dir/binary_tree_level_order_traversal.cpp.o CMakeFiles/untitled2.dir/count_good_nodes_in_binary_tree.cpp.o CMakeFiles/untitled2.dir/binary_tree_right_side_view.cpp.o CMakeFiles/untitled2.dir/validate_binary_search_tree.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.0
   OBJECT_DIR = CMakeFiles/untitled2.dir
   POST_BUILD = :
